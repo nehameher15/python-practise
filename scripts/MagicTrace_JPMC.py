@@ -1,4 +1,5 @@
-#// p 0 - _ ) ? [ ]  { } ; :
+#Calcualte checksum of number by doubling every 2nd digit from last
+#1496= (1+1) + 4 + (1+8) + 6 = 21
 def CalcChecksum(number):
     sum=otherdigit=secondPosdigit=0
     while(number>0):

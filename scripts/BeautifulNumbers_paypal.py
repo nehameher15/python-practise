@@ -1,17 +1,12 @@
-#// p 0 - _ ) ? [ ]  { } ; :
+#Calculate sum of beautiful/happy numbers
 def isHappyNumber(number):
     rem=sum=0
     while(number>0):
         rem=(int)(number%10)
-        #print(rem)
         sum=sum+(rem*rem)
-        #print(sum)
         number=(int)(number/10)
-        #print(number)
-    #print(sum)
     return sum
 num=[31,32]
-#result=num
 sum=0
 for i in num:
     result=i

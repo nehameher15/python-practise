@@ -1,11 +1,10 @@
-#// p 0 - _ ) ? [ ]  { } ; :
+# Calculate average of numbers in list and handle exceptions
 def calculateAvg(numlist):
     try:
         sum=0
         for i in numlist:
             sum=sum+i
         a=sum/len(numlist)
-        print("avg",a)
     except TypeError as e:
         print("TypeError", e)
     except ZeroDivisionError as e:

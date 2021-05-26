@@ -1,4 +1,4 @@
-#// p 0 - _ ) ? [ ]  { } ; :
+#Return names of customers who bought products always at discounted price
 import operator
 '''
 Rajan Patil, Aundh, 1, Phone Cover, Rs 170, Cash
@@ -14,7 +14,7 @@ Nina Kothari, Baner, 24, USB Cable, Rs 200, UPI
 Mohit Gupta, Baner, 25, USB Cable, Rs 150, UPI
 '''
 def CalcDiscntdCustomers():
-    f = open('C:\\Users\\neha.meher\\Documents\\files.txt', 'r')   # r is for read
+    f = open('D:\python-practise-dev-github\python-practise\input_data\Customers_List.txt')
     lines=[]
     Proddict= {}
     maxlist=[]
